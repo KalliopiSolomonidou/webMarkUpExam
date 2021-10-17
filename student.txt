@@ -1,0 +1,4 @@
+* Student name: Kalliopi Solomonidou
+* Student number: 649094
+* Student class: IT1E
+* URL student GitHub repository: https://github.com/KalliopiSolomonidou/webMarkUpExam
