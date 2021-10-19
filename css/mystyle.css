@@ -1,0 +1,20 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+
+*
+	{
+	font-family: 'Notable', sans-serif;	
+	}
+
+/* pc */
+@media screen and (min-width: 1280px) {
+    
+}
+/* mobile */
+@media screen and (max-width: 480px) {
+    
+}
+/* tablet */
+@media screen and (max-width: 1179px) {
+    
+}
