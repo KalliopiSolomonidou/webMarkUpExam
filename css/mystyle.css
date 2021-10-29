@@ -3,10 +3,33 @@
 
 *
 	{
-	border : 	0;     
-	padding :	0;    
-	margin :	0;   
+  		box-sizing: border-box; 
 	}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: .1rem 0;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    /* padding-left: 20px; */
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+h4 {
+    font-size: 1rem;
+    font-style: italic;
+}
 
 body 
 	{
@@ -17,25 +40,19 @@ body
 	{
 		display: flex;
 		flex-direction: column;
-		width: 100vw;
-    	margin: 0;
+  		margin: 0;
 	}
 
 .header-container
 	{
 		display: flex;
-    	flex-direction: column;
-		width: 100vw;
-    	margin: 0;
-		color: white;
+		flex-direction: column;
 	}
 	
 .article-container
 	{
 		display: flex;
-    	flex-direction: column;
-		width: 100vw;
-    	margin: 0;
+		flex-direction: column;
 	}
 
 /* pc */
@@ -52,10 +69,8 @@ body
 		background: #000000;
   		flex: 1 100%;
 		width: 100%;
-		flex-grow: 1;
 	}
 	.header-container-item-1 a img {
-		width: 100%;
   		height: auto;
   		/* Recommended - Limit maximum width */
   		max-width: 400px;
@@ -63,39 +78,56 @@ body
 	.header-container-item-2 {
 		order: 2;
 		background: #757171;
-  		flex: 1 100%;
+  		flex: 100%;
 		width: 100%;
-		flex-grow: 1;
 	}
 	.header-container-item-3 {
 		order: 3;
 		background: #aeaaaa;
-  		flex: 1 100%;
+  		flex: 100%;
 		width: 100%;
 		flex-grow: 1;
 	}
 	.header-container-item-4 {
 		order: 4;
 		background: #4472c4;
-  		flex: 1 100%;
+  		flex: 100%;
 		width: 100%;
-		flex-grow: 1;
 	}
-	/* video */
+	/* index video */
 	.body-container-item-1 {
 		order: 2;
 		background: #f8cbad;
-  		flex: 1 100%;
-		flex-grow: 1;
 		color: #000000;
 	}
-	.body-container-item-1 video {
-  		width: 100% !important;
-  		height: auto !important;
-	}
+
+	.body-container-item-1 .videoInsert {
+		
+		min-width: 100%; 
+		min-height: 100%;
+		width: auto; 
+		height: auto; 
+		overflow: hidden;
+	} 
+	/* index articles */
 	.body-container-item-2 {
 		order: 3;
 	}
+	.body-container-item-2 article:nth-child(1) {
+		background: #e2efda; 
+	}
+	.body-container-item-2 article:nth-child(2) {
+		background: #c6e0b4; 
+	}
+	.body-container-item-2 article:nth-child(3) {
+		background: #a9d08e; 
+	}
+	.body-container-item-2 img {
+		max-width: 20%;
+		/* height: auto;
+		float: right; */
+	}
+	/* index aside */
 	.body-container-item-3 {
 		order: 4;
 	}
