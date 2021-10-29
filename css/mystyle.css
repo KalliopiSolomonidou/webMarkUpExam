@@ -19,7 +19,6 @@ h1 {
 
 h2 {
     font-size: 1.5rem;
-    /* padding-left: 20px; */
 }
 
 h3 {
@@ -39,8 +38,7 @@ body
 .body-container 
 	{
 		display: flex;
-		flex-direction: column;
-  		margin: 0;
+		flex-wrap: wrap;
 	}
 
 .header-container
@@ -52,17 +50,14 @@ body
 .article-container
 	{
 		display: flex;
-		flex-direction: column;
+    	flex-direction: column;
 	}
-
 /* pc */
 @media screen and (min-width: 1280px) {
 
-	.body-container-item {
+	.body-container-item-1 {
 		order: 1;
-  		flex: 1 100%;
-		width: 100%;
-  		align-content: flex-start;
+		width: 100vw;
 	}
 	.header-container-item-1 {
 		order: 1;
@@ -95,46 +90,66 @@ body
 		width: 100%;
 	}
 	/* index video */
-	.body-container-item-1 {
+	.body-container-item-2 {
 		order: 2;
+		width: 100vw;
 		background: #f8cbad;
 		color: #000000;
+		flex-grow: 1;
+		flex-shrink: 1;
+    	display: block;
 	}
-
-	.body-container-item-1 .videoInsert {
-		
+	.body-container-item-2 .videoTag {
 		min-width: 100%; 
 		min-height: 100%;
+		max-width: 100%; 
+		min-height: 100%;
 		width: auto; 
-		height: auto; 
-		overflow: hidden;
+		height: auto;
 	} 
 	/* index articles */
-	.body-container-item-2 {
+	.body-container-item-3 {
 		order: 3;
+		flex: 1;
 	}
-	.body-container-item-2 article:nth-child(1) {
+	.body-container-item-3 article:nth-child(1) {
 		background: #e2efda; 
 	}
-	.body-container-item-2 article:nth-child(2) {
+	.body-container-item-3 article:nth-child(2) {
 		background: #c6e0b4; 
 	}
-	.body-container-item-2 article:nth-child(3) {
+	.body-container-item-3 article:nth-child(3) {
 		background: #a9d08e; 
 	}
-	.body-container-item-2 img {
-		max-width: 20%;
-		/* height: auto;
-		float: right; */
+	.article-container-item {
+		padding-left: 1%;
+		flex: 1;
+	}
+	.article-container-item header {
+		float: right;
+		max-width: 25vw;
+	}
+	.article-container-item header figure a img {
+		max-width: 20vw;
+		height: auto;
 	}
 	/* index aside */
-	.body-container-item-3 {
-		order: 4;
-	}
 	.body-container-item-4 {
+		order: 4;
+		width: 250px;
+		position: inherit;
+		background: #fff2cc;
+	}
+	.body-container-item-4 .aside {
+		width: 200px;
+		color: #000000;
+	}
+	/* index footer */ 
+	.body-container-item-5 {
 		order: 5;
+		width: 100vw;
 		background: #000000;
-  		flex: 1 100%;
+		color: #ffffff;
 	}
 
 }
