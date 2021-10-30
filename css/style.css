@@ -206,6 +206,27 @@
     #navburger .menu-btn:checked~.menu-icon:not(.steps) .navicon:after {
         top: 0;
     }
+    /* Tickets table specifics */
+    
+    table {
+        border-collapse: collapse;
+    }
+    
+    tr:nth-of-type(odd) {
+        background: #aeaaaa;
+    }
+    
+    th {
+        background: #333333;
+        color: #ffffff;
+    }
+    
+    td,
+    th {
+        padding: 2px;
+        border: 1px solid #ccc;
+        text-align: center;
+    }
     /* pc */
     
     @media screen and (min-width: 1280px) {
@@ -314,10 +335,16 @@
         #navburger .menu-icon {
             display: none;
         }
+        /* Tickets table specifics */
+        table {
+            width: 70vw;
+            max-width: 69vw;
+            margin-top: 10px;
+        }
     }
     /* tablet */
     
-    @media screen and (min-width:481px) and (max-width: 1179px) {
+    @media screen and (min-width:481px) and (max-width: 1279px) {
         .body-container-item {}
         .body-container-item:nth-child(1) {
             order: 1;
@@ -330,13 +357,23 @@
         }
         .body-container-item:nth-child(3) {
             order: 3;
-            flex: 0 0 70%;
             background: #bdd7ee;
+        }
+        #tickets-section-3.body-container-item {
+            flex: 0 0 100%;
+        }
+        #contact-section-3.body-container-item {
+            flex: 0 0 70%;
         }
         .body-container-item:nth-child(4) {
             order: 4;
-            flex: 0 0 30%;
             background-color: #bdd7ee;
+        }
+        #tickets-section-4.body-container-item {
+            flex: 0 0 100%;
+        }
+        #contact-section-4.body-container-item {
+            flex: 0 0 30%;
         }
         .body-container-item:nth-child(5) {
             order: 5;
@@ -422,6 +459,11 @@
         }
         #navburger .menu-icon {
             display: none;
+        }
+        /* Tickets table specifics */
+        table {
+            width: 100vw;
+            margin-top: 10px;
         }
     }
     /* mobile */
@@ -516,4 +558,10 @@
             text-align: center;
         }
         /*Ham menu*/
+        /* Tickets table specifics */
+        table {
+            width: 100vw;
+            margin-top: 10px;
+            font-size: 0.4em;
+        }
     }
