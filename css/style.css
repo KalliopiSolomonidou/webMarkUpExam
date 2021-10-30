@@ -394,7 +394,7 @@
         }
         #navburger .menu {
             clear: none;
-            float: right;
+            float: left;
             max-height: none;
         }
         #navburger .menu-icon {
@@ -626,7 +626,7 @@
         }
         #navburger .menu {
             clear: none;
-            float: right;
+            float: left;
             max-height: none;
         }
         #navburger .menu-icon {
@@ -811,6 +811,7 @@
             padding-top: 20px;
             text-align: center;
             justify-content: center;
+            z-index: 9999;
         }
         .footer-container-item:nth-child(2) {
             order: 1;
