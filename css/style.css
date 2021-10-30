@@ -666,6 +666,47 @@
         #index-section-3.body-container-item {
             order: 3;
         }
+        /* index articles */
+        #index-section-3.body-container-item article:nth-child(1) {
+            background: #e2efda;
+            order: 3;
+        }
+        #index-section-3.body-container-item article:nth-child(2) {
+            background: #c6e0b4;
+            order: 2;
+        }
+        #index-section-3.body-container-item article:nth-child(3) {
+            background: #a9d08e;
+            order: 1;
+        }
+        .article-container-item {
+            width: 100vw;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+        }
+        .article-container-item header {
+            order: 3;
+            max-width: 100vw;
+            margin: auto;
+            overflow: hidden;
+        }
+        .article-container-item header figure a img {
+            flex: 1;
+            width: 100vw;
+            max-width: 100vw;
+        }
+        .article-container-item p {
+            order: 1;
+            width: 98vw;
+            margin-top: 5px;
+        }
+        .article-container-item footer {
+            order: 2;
+            width: 98vw;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
         #contact-section-3.body-container-item {
             order: 3;
         }
@@ -693,11 +734,20 @@
         #tickets-section-4.body-container-item {
             order: 4;
         }
+        .ticket-aside-container-item {
+            align-content: center;
+        }
+        .ticket-aside-container-item img,
+        .ticket-aside-container-item figcaption {
+            flex: 1 1 100%;
+            max-width: 98%;
+            padding: 0.5vw;
+        }
         .body-container-item:nth-child(5) {
             flex: 0 0 100%;
             background-color: #bdd7ee;
         }
-        #index-section-5.body-container-item {
+        #index-footer-5.body-container-item {
             order: 4;
         }
         #contact-footer-5.body-container-item {
