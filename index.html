@@ -1,176 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta charset="utf-8" />
-        <meta name="keywords" content="" />
-        <meta name="description" content="" />
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
 
-        <link rel="stylesheet" type="text/css" href="css/mystyle.css" />
-        <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
 
-        <meta name="author" content="Kalliopi Solomonidou" />
+    <meta name="author" content="Kalliopi Solomonidou" />
 
-        <title>TUI - Discover your smile</title>
-    </head>
+    <title>TUI - Discover your smile</title>
+</head>
 
-    <body class="body-container">
-        <header class="body-container-item-1">
-            <section class="header-container">
-                <p class="header-container-item-1"><a href="index.html"><img id="logo" src="./images/logo.svg"
-                             title="Tui Logo"
-                             alt="The logo of Tui" /></a></p>
-                <h1 class="header-container-item-2">TUI</h1>
-                <h2 class="header-container-item-3">Discover your smile</h2>
-                <nav class="header-container-item-4">
-                    <input class="menu-btn" type="checkbox" id="menu-btn" />
-                    <label class="menu-icon" for="menu-btn">
-                        <span class="nav-icon"></span>
-                    </label>
-                    <ul class="menu-container">
-                        <li>
-                            <a href="bestdestinations.html">Best Destinations</a>
-                        </li>
-                        <li>
-                            <a href="tickets.html">Tickets</a>
-                        </li>
-                        <li>
-                            <a href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
-            </section>
-        </header>
-        <section class="body-container-item-2">
-            <video class="videoTag" autoplay>
+<body class="body-container">
+    <header id="section-header" class="body-container-item">
+        <section class="header-container">
+            <p class="header-container-item">
+                <a href="index.html"><img src="./images/logo.svg" title="Tui Logo" alt="The logo of Tui" /></a>
+            </p>
+            <h1 class="header-container-item">TUI</h1>
+            <h2 class="header-container-item">Discover your smile</h2>
+            <nav id="navburger" class="header-container-item">
+                <input class="menu-btn" type="checkbox" id="menu-btn" />
+                <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+                <ul class="menu">
+                    <li>
+                        <a href="bestdestinations.html">Best Destinations</a>
+                    </li>
+                    <li>
+                        <a href="tickets.html">Tickets</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <label for="toggle-menu" id="toggle-menu"></label>
+            </nav>
+        </section>
+    </header>
+    <section id="index-section-2" class="body-container-item">
+        <video class="videoTag" autoplay>
                 <source src="mov/video_20.mp4" type="video/mp4">
                 <source src="mov/video_20.ogg" type="video/ogg">
                 Your browser does not support the video tag.
             </video>
+    </section>
+    <section id="index-section-3" class="body-container-item">
+        <section class="article-container">
+            <article class="article-container-item">
+                <header>
+                    <figure>
+                        <a href="https://www.tui.co.uk/destinations/europe/greece/santorini/holidays-santorini.html" target="_blank">
+                            <img src="images/destinations/santorini.webp" title="Santorini main town" alt="An image of Santorinis main town" />
+                        </a>
+                        <figcaption>Santorini &copy; TUI</figcaption>
+                    </figure>
+                </header>
+                <p>
+                    Santorini is a Greek island in the middle of the Aegean Sea. Back in 1450 BC, a massive volcanic eruption caused the middle of the isle to collapse. It left a steep-edged crater known as a caldera eeping above the waves, which today is a spectacular sight
+                    from the island’s clifftops. Greece’s hot weather means a long summer season during which to enjoy the views, too – our Santorini package holidays span May to October so you can enjoy also off season options!
+                </p>
+                <footer>
+                    <a href="https://www.tui.co.uk/destinations/europe/greece/santorini/holidays-santorini.html" target="_blank"><strong>Book Now</strong></a>
+                </footer>
+            </article>
+            <article class="article-container-item">
+                <header>
+                    <figure>
+                        <a href="https://www.tui.co.uk/destinations/europe/cyprus/holidays-cyprus.html" target="_blank">
+                            <img src="images/destinations/cyprus.webp" title="Cyprus beautifull coast line" alt="An image of a beautifull Cyprus coast line" />
+                        </a>
+                        <figcaption>Cyprus &copy; TUI</figcaption>
+                    </figure>
+                </header>
+                <p>
+                    Thanks to its sandy stretches, ancient sights and up-tempo nightlife, Cyprus is a firm holiday favorite, attracting everyone from families to clubbers. A mix of laidback and lively resorts fringe the island, along with beautiful beaches – 64 are Blue
+                    Flag-certified. And if you go inland, you’ll find sleepy villages, hidden hamlets, and the scenic Troodos Mountains. Larnaca, Paphos, Limassol and of course Nicosia are the main cities and areas to visit. Food is also amazing!
+                </p>
+                <footer>
+                    <a href="https://www.tui.co.uk/destinations/europe/cyprus/holidays-cyprus.html" target="_blank"><strong>Book Now</strong></a>
+                </footer>
+            </article>
+            <article class="article-container-item">
+                <header>
+                    <figure>
+                        <a href="https://www.tui.co.uk/destinations/europe/portugal/lisbon/holidays-lisbon.html" target="_blank">
+                            <img src="images/destinations/lisbon.webp" title="Beautiful city of Lisbon" alt="A beautiful view of Lisbon view" />
+                        </a>
+                        <figcaption>Lisbon &copy; TUI</figcaption>
+                    </figure>
+                </header>
+                <p>
+                    Portugal’s capital city has a lot going for it. It’s got over 1,000 years of history under its belt, which you can learn about at some of Lisbon’s biggest landmarks, like the Cathedral of Saint Mary Major and the Jeronimos Monastery – the latter’s a UNESCO
+                    World Heritage Site. The city boasts a by-the-coast plot, too, so there’s an ample supply of waterfront restaurants for you to get your hands on during a Lisbon city break. Head to the old town, meanwhile, and you can unwind with an
+                    espresso in one of the cobbled plazas.
+                </p>
+                <footer>
+                    <a href="https://www.tui.co.uk/destinations/europe/portugal/lisbon/holidays-lisbon.html" target="_blank"><strong>Book Now</strong></a>
+                </footer>
+            </article>
         </section>
-        <section class="body-container-item-3">
-            <section class="article-container">
-                <article class="article-container-item">
-                    <header>
-                        <figure>
-                            <a href="https://www.tui.co.uk/destinations/europe/greece/santorini/holidays-santorini.html"
-                               target="_blank">
-                                <img
-                                     src="images/destinations/santorini.webp"
-                                     title="Santorini main town"
-                                     alt="An image of Santorinis main town" />
-                            </a>
-                            <figcaption>Santorini &copy; TUI</figcaption>
-                        </figure>
-                    </header>
-                    <p>
-                        Santorini is a Greek island in the middle of the Aegean Sea. Back in 1450 BC, a massive
-                        volcanic
-                        eruption caused the middle of the isle to collapse. It left a steep-edged crater known as a
-                        caldera
-                        eeping above the waves, which today is a spectacular sight from the island’s clifftops.
-                        Greece’s
-                        hot
-                        weather means a long summer season during which to enjoy the views, too – our Santorini
-                        package
-                        holidays span May to October so you can enjoy also off season options!
-                    </p>
-                    <footer>
-                        <a href="https://www.tui.co.uk/destinations/europe/greece/santorini/holidays-santorini.html"
-                           target="_blank"><strong>Book Now</strong></a>
-                    </footer>
-                </article>
-                <article class="article-container-item">
-                    <header>
-                        <figure>
-                            <a href="https://www.tui.co.uk/destinations/europe/cyprus/holidays-cyprus.html"
-                               target="_blank">
-                                <img
-                                     src="images/destinations/cyprus.webp"
-                                     title="Cyprus beautifull coast line"
-                                     alt="An image of a beautifull Cyprus coast line" />
-                            </a>
-                            <figcaption>Cyprus &copy; TUI</figcaption>
-                        </figure>
-                    </header>
-                    <p>
-                        Thanks to its sandy stretches, ancient sights and up-tempo nightlife, Cyprus is a firm
-                        holiday
-                        favorite, attracting everyone from families to clubbers. A mix of laidback and lively
-                        resorts
-                        fringe
-                        the island, along with beautiful beaches – 64 are Blue Flag-certified. And if you go inland,
-                        you’ll
-                        find sleepy villages, hidden hamlets, and the scenic Troodos Mountains. Larnaca, Paphos,
-                        Limassol
-                        and of course Nicosia are the main cities and areas to visit. Food is also amazing!
-                    </p>
-                    <footer>
-                        <a href="https://www.tui.co.uk/destinations/europe/cyprus/holidays-cyprus.html"
-                           target="_blank"><strong>Book Now</strong></a>
-                    </footer>
-                </article>
-                <article class="article-container-item">
-                    <header>
-                        <figure>
-                            <a href="https://www.tui.co.uk/destinations/europe/portugal/lisbon/holidays-lisbon.html"
-                               target="_blank">
-                                <img
-                                     src="images/destinations/lisbon.webp"
-                                     title="Beautiful city of Lisbon"
-                                     alt="A beautiful view of Lisbon view" />
-                            </a>
-                            <figcaption>Lisbon &copy; TUI</figcaption>
-                        </figure>
-                    </header>
-                    <p>
-                        Portugal’s capital city has a lot going for it. It’s got over 1,000 years of history under
-                        its
-                        belt,
-                        which you can learn about at some of Lisbon’s biggest landmarks, like the Cathedral of Saint
-                        Mary
-                        Major and the Jeronimos Monastery – the latter’s a UNESCO World Heritage Site. The city
-                        boasts a
-                        by-the-coast plot, too, so there’s an ample supply of waterfront restaurants for you to get
-                        your
-                        hands on during a Lisbon city break. Head to the old town, meanwhile, and you can unwind
-                        with an
-                        espresso in one of the cobbled plazas.
-                    </p>
-                    <footer>
-                        <a href="https://www.tui.co.uk/destinations/europe/portugal/lisbon/holidays-lisbon.html"
-                           target="_blank"><strong>Book Now</strong></a>
-                    </footer>
-                </article>
-            </section>
-        </section>
-        <section class="body-container-item-4">
-            <aside class="aside">
-                <ol>
-                    <li>
-                        <h2>Crete</h2>
-                        <p><em>Holidays to Crete</em>, sandy beaches and scenic countryside.</p>
-                    </li>
-                    <li>
-                        <h2>Parga</h2>
-                        <p><em>Holidays to Preveza</em>, a mix of beaches and historical sights.</p>
-                    </li>
-                    <li>
-                        <h2>Naxos</h2>
-                        <p>Holidays to Naxos, visit some of Greece's best beaches.</p>
-                    </li>
-                    <li>
-                        <h2>Ionian Islands</h2>
-                        <p><em>Holidays to the Ionian Islands</em>, throw up plenty of options.</p>
-                    </li>
-                    <li>
-                        <h2>Larnaca</h2>
-                        <p><em>Holidays to the Ayia Napa</em>, the reason to visit Larnaca.</p>
-                    </li>
-                </ol>
-            </aside>
-            <ol class="without-aside">
+    </section>
+    <section id="index-section-4" class="body-container-item">
+        <aside class="aside">
+            <ol>
                 <li>
                     <h2>Crete</h2>
                     <p><em>Holidays to Crete</em>, sandy beaches and scenic countryside.</p>
@@ -192,16 +128,36 @@
                     <p><em>Holidays to the Ayia Napa</em>, the reason to visit Larnaca.</p>
                 </li>
             </ol>
+        </aside>
+        <ol class="without-aside">
+            <li>
+                <h2>Crete</h2>
+                <p><em>Holidays to Crete</em>, sandy beaches and scenic countryside.</p>
+            </li>
+            <li>
+                <h2>Parga</h2>
+                <p><em>Holidays to Preveza</em>, a mix of beaches and historical sights.</p>
+            </li>
+            <li>
+                <h2>Naxos</h2>
+                <p>Holidays to Naxos, visit some of Greece's best beaches.</p>
+            </li>
+            <li>
+                <h2>Ionian Islands</h2>
+                <p><em>Holidays to the Ionian Islands</em>, throw up plenty of options.</p>
+            </li>
+            <li>
+                <h2>Larnaca</h2>
+                <p><em>Holidays to the Ayia Napa</em>, the reason to visit Larnaca.</p>
+            </li>
+        </ol>
+    </section>
+    <footer id="section-footer" class="body-container-item">
+        <section class="footer-container">
+            <p class="footer-container-item">Cookie Statement</p>
+            <p class="footer-container-item">&copy; 2021 Kalliopi Solomonidou. &copy; TUI Logo and material are intelectual property of &copy; TUI. And its used for educational purposes only.</p>
         </section>
-        <footer class="body-container-item-5">
-            <section class="footer-container">
-                <p class="footer-container-item-1">Cookie Statement</p>
-                <p class="footer-container-item-2">&copy; 2021 Kalliopi Solomonidou. &copy; TUI Logo and material are
-                    intelectual property of &copy;
-                    TUI.
-                    And its used for educational purposes only.</p>
-            </section>
-        </footer>
-    </body>
+    </footer>
+</body>
 
 </html>
