@@ -310,6 +310,11 @@
         #contact-section-4.body-container-item {
             flex: 0 0 30%;
         }
+        .ticket-aside-container-item img {
+            flex: 1 1 100%;
+            max-width: 98%;
+            padding: 0.5 vw;
+        }
         .body-container-item:nth-child(5) {
             order: 5;
             flex: 0 0 100%;
@@ -411,43 +416,136 @@
             flex: 0 0 100%;
         }
         .body-container-item:nth-child(2) {
-            order: 2;
             background: #fff2cc;
         }
         #index-section-2.body-container-item {
+            order: 3;
             flex: 0 0 100%;
+            background: #f8cbad;
+            color: #000000;
+            flex-grow: 1;
+            flex-shrink: 1;
+            display: block;
+        }
+        #index-section-2.body-container-item .videoTag {
+            min-width: 100%;
+            min-height: 100%;
+            max-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
         }
         #contact-section-2.body-container-item {
+            order: 2;
             flex: 0 0 100%;
         }
         #tickets-section-2.body-container-item {
+            order: 2;
             flex: 0 0 100%;
         }
         .body-container-item:nth-child(3) {
-            order: 3;
             background: #bdd7ee;
+        }
+        #index-section-3.body-container-item {
+            order: 4;
+            flex: 0 0 70%;
+        }
+        #tickets-section-3.body-container-item {
+            order: 3;
+            flex: 0 0 100%;
+        }
+        #contact-section-3.body-container-item {
+            order: 3;
+            flex: 0 0 70%;
         }
         #index-section-3.body-container-item {
             flex: 0 0 70%;
         }
-        #tickets-section-3.body-container-item {
-            flex: 0 0 100%;
+        #index-section-3.body-container-item article:nth-child(1) {
+            background: #e2efda;
+            order: 3;
         }
-        #contact-section-3.body-container-item {
-            flex: 0 0 70%;
+        #index-section-3.body-container-item article:nth-child(2) {
+            background: #c6e0b4;
+            order: 2;
+        }
+        #index-section-3.body-container-item article:nth-child(3) {
+            background: #a9d08e;
+            order: 1;
+        }
+        .article-container-item {
+            width: 100vw;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+        }
+        .article-container-item header {
+            order: 1;
+            max-width: 24vw;
+            margin: auto;
+            overflow: hidden;
+        }
+        .article-container-item header figure a img {
+            flex: 1;
+            width: 20vw;
+            max-width: 24vw;
+        }
+        .article-container-item p {
+            order: 2;
+            max-width: 74vw;
+            width: 74vw;
+            margin-top: 5px;
+        }
+        .article-container-item footer {
+            order: 3;
+            max-width: 14vw;
+            width: 14vw;
+            margin-bottom: 5px;
+            margin-right: 5px;
         }
         .body-container-item:nth-child(4) {
-            order: 4;
             background-color: #bdd7ee;
         }
         #index-section-4.body-container-item {
-            flex: 0 0 70%;
+            order: 2;
+            flex: 0 0 100%;
+            background: #fff2cc;
+        }
+        #index-section-4.body-container-item.without-aside {
+            color: #000000;
+            flex: 1;
+            padding-left: 5%;
+        }
+        #index-section-4.body-container-item .aside {
+            display: none;
         }
         #tickets-section-4.body-container-item {
+            order: 4;
             flex: 0 0 100%;
         }
         #contact-section-4.body-container-item {
+            order: 4;
             flex: 0 0 30%;
+        }
+        .ticket-aside-container {
+            display: flex;
+        }
+        .ticket-aside-container figure:nth-child(1) {
+            display: none;
+        }
+        .ticket-aside-container figure:nth-child(2) {
+            order: 1;
+        }
+        .ticket-aside-container figure:nth-child(3) {
+            order: 2;
+        }
+        .ticket-aside-container figure {
+            width: 50vw;
+            flex: 1 50%;
+        }
+        .ticket-aside-container-item a img {
+            width: 50vw;
+            flex: 1 50%;
         }
         .body-container-item:nth-child(5) {
             order: 5;
