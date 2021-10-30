@@ -1,27 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8" />
-        <meta name="keywords" content="" />
-        <meta name="description" content="" />
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
 
-        <link rel="stylesheet" type="text/css" href="css/mystyle.css" />
-        <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
 
-        <meta name="author" content="Kalliopi Solomonidou" />
+    <meta name="author" content="Kalliopi Solomonidou" />
 
-        <title>TUI - Tickets</title>
-    </head>
+    <title>TUI - Tickets</title>
+</head>
 
-    <body>
-        <header>
-            <a href="index.html"><img src="./images/logo.svg" title="Tui Logo"
-                     alt="The logo of Tui" /></a>
-            <h1>TUI</h1>
-            <h2>Discover your smile</h2>
-            <nav>
-                <ul>
+<body class="body-container">
+    <header class="body-container-item">
+        <section class="header-container">
+            <p class="header-container-item">
+                <a href="index.html"><img src="./images/logo.svg" title="Tui Logo" alt="The logo of Tui" /></a>
+            </p>
+            <h1 class="header-container-item">TUI</h1>
+            <h2 class="header-container-item">Discover your smile</h2>
+            <nav id="navburger" class="header-container-item">
+                <input class="menu-btn" type="checkbox" id="menu-btn" />
+                <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+                <ul class="menu">
                     <li>
                         <a href="index.html">Home</a>
                     </li>
@@ -32,99 +37,95 @@
                         <a href="contact.html">Contact</a>
                     </li>
                 </ul>
+                <label for="toggle-menu" id="toggle-menu"></label>
             </nav>
-        </header>
-        <section>
-            <article>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Vliegbestemming</th>
-                            <th>Land</th>
-                            <th>Vertrekdatum</th>
-                            <th>Reisduur</th>
-                            <th>Retourprijs &#42;</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Paphos</td>
-                            <td>Cyprus</td>
-                            <td>21 oktober 2021</td>
-                            <td>8 dagen</td>
-                            <td>493 &euro;</td>
-                        </tr>
-                        <tr>
-                            <td>Kos</td>
-                            <td>Griekenland</td>
-                            <td>21 oktober 2021</td>
-                            <td>8 dagen</td>
-                            <td>403 &euro;</td>
-                        </tr>
-                        <tr>
-                            <td>Kreta</td>
-                            <td>Griekenland</td>
-                            <td>24 oktober 2021</td>
-                            <td>8 dagen</td>
-                            <td>557 &euro;</td>
-                        </tr>
-                        <tr>
-                            <td>Kreta</td>
-                            <td>Griekenland</td>
-                            <td>24 oktober 2021</td>
-                            <td>8 dagen</td>
-                            <td>333 &euro;</td>
-                        </tr>
-                        <tr>
-                            <td>Rhodos</td>
-                            <td>Griekenland</td>
-                            <td>21 oktober 2021</td>
-                            <td>8 dagen</td>
-                            <td>406 &euro;</td>
-                        </tr>
-
-                    </tbody>
-                </table>
-                <caption>Source of data &copy; 2021 TUI.nl</caption>
-            </article>
-            <aside>
-                <figure>
-                    <a href="https://www.tui.co.uk/destinations/the-americas/united-states-of-america/florida/miami/holidays-miami.html"
-                       target="_blank">
-                        <img
-                             src="images/destinations/Miami.webp"
-                             title="Miami"
-                             alt="An image of Miami" />
-                    </a>
-                    <figcaption>Miami</figcaption>
-                </figure>
-                <figure>
-                    <a href="https://www.tui.co.uk/destinations/the-americas/united-states-of-america/american-cities/new-york/holidays-new-york.html"
-                       target="_blank">
-                        <img
-                             src="images/destinations/newyork.webp"
-                             title="New York"
-                             alt="An image of New York in the night" />
-                    </a>
-                    <figcaption>New York</figcaption>
-                </figure>
-                <figure>
-                    <a href="https://www.tui.co.uk/destinations/the-americas/united-states-of-america/american-cities/las-vegas/holidays-las-vegas.html"
-                       target="_blank">
-                        <img
-                             src="images/destinations/lasvegas.webp"
-                             title="Las Vegas"
-                             alt="An image of Las Vegas" />
-                    </a>
-                    <figcaption>Las Vegas</figcaption>
-                </figure>
-            </aside>
         </section>
-        <footer>
-            <p>Cookie Statement</p>
-            <p>&copy; 2021 Kalliopi Solomonidou. &copy; TUI Logo and material are intelectual property of &copy; TUI.
-                And its used for educational purposes only.</p>
-        </footer>
-    </body>
+    </header>
+    <section id="tickets-section-2" class="body-container-item">
+        <h1>Article about tickets</h1>
+    </section>
+    <section id="tickets-section-3" class="body-container-item">
+        <article>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Vliegbestemming</th>
+                        <th>Land</th>
+                        <th>Vertrekdatum</th>
+                        <th>Reisduur</th>
+                        <th>Retourprijs &#42;</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Paphos</td>
+                        <td>Cyprus</td>
+                        <td>21 oktober 2021</td>
+                        <td>8 dagen</td>
+                        <td>493 &euro;</td>
+                    </tr>
+                    <tr>
+                        <td>Kos</td>
+                        <td>Griekenland</td>
+                        <td>21 oktober 2021</td>
+                        <td>8 dagen</td>
+                        <td>403 &euro;</td>
+                    </tr>
+                    <tr>
+                        <td>Kreta</td>
+                        <td>Griekenland</td>
+                        <td>24 oktober 2021</td>
+                        <td>8 dagen</td>
+                        <td>557 &euro;</td>
+                    </tr>
+                    <tr>
+                        <td>Kreta</td>
+                        <td>Griekenland</td>
+                        <td>24 oktober 2021</td>
+                        <td>8 dagen</td>
+                        <td>333 &euro;</td>
+                    </tr>
+                    <tr>
+                        <td>Rhodos</td>
+                        <td>Griekenland</td>
+                        <td>21 oktober 2021</td>
+                        <td>8 dagen</td>
+                        <td>406 &euro;</td>
+                    </tr>
+
+                </tbody>
+            </table>
+            <caption>Source of data &copy; 2021 TUI.nl</caption>
+        </article>
+    </section>
+    <section id="contact-section-4" class="body-container-item">
+        <aside class="contact-aside-container">
+            <figure class="contact-aside-container-item">
+                <a href="https://www.tui.co.uk/destinations/the-americas/united-states-of-america/florida/miami/holidays-miami.html" target="_blank">
+                    <img src="images/destinations/Miami.webp" title="Miami" alt="An image of Miami" />
+                </a>
+                <figcaption>Miami</figcaption>
+            </figure>
+            <figure class="contact-aside-container-item">
+                <a href="https://www.tui.co.uk/destinations/europe/malta/malta/valletta/holidays-valletta.html" target="_blank">
+                    <img src="images/destinations/valleta.webp" title="Valleta" alt="An image of Valleta" />
+                </a>
+                <figcaption>Valleta</figcaption>
+            </figure>
+            <figure class="contact-aside-container-item">
+                <a href="https://www.tui.co.uk/destinations/the-americas/united-states-of-america/american-cities/las-vegas/holidays-las-vegas.html" target="_blank">
+                    <img src="images/destinations/lasvegas.webp" title="Las Vegas" alt="An image of Las Vegas" />
+                </a>
+                <figcaption>Las Vegas</figcaption>
+            </figure>
+        </aside>
+    </section>
+    <footer id="contact-section-footer" class="body-container-item">
+        <section class="footer-container">
+            <p class="footer-container-item">Cookie Statement</p>
+            <p class="footer-container-item">&copy; 2021 Kalliopi Solomonidou. &copy; TUI Logo and material are intelectual property of &copy; TUI. And its used for educational purposes only.</p>
+        </section>
+    </footer>
+</body>
 
 </html>
