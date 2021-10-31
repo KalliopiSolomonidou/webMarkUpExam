@@ -12,19 +12,27 @@
     
     h1 {
         font-size: 2rem;
+        letter-spacing: 3px;
     }
     
     h2 {
         font-size: 1.5rem;
+        letter-spacing: 2px;
     }
     
     h3 {
         font-size: 1.2rem;
+        letter-spacing: -1px;
     }
     
     h4 {
         font-size: 1rem;
         font-style: italic;
+        letter-spacing: -2px;
+    }
+    
+    a:link {
+        color: blue;
     }
     
     .body-container {
@@ -212,8 +220,16 @@
         border-collapse: collapse;
     }
     
+    tr:first-child {
+        background-color: #FFFF00;
+    }
+    
+    tr:nth-of-type(even) {
+        background: #ccffff;
+    }
+    
     tr:nth-of-type(odd) {
-        background: #aeaaaa;
+        background: #ffffff;
     }
     
     th {
@@ -313,7 +329,7 @@
         .ticket-aside-container-item img {
             flex: 1 1 100%;
             max-width: 98%;
-            padding: 0.5 vw;
+            padding: 0.5vw;
         }
         .body-container-item:nth-child(5) {
             order: 5;
@@ -378,6 +394,13 @@
             color: #ffffff;
             text-align: center;
             justify-content: center;
+            line-height: normal;
+            text-indent: 5%;
+            word-spacing: 5px;
+            font-family: 'Notable', sans-serif;
+            border-style: double;
+            border-color: #333333;
+            border-width: 1px;
         }
         .footer-container-item:nth-child(2) {
             order: 1;
@@ -385,6 +408,9 @@
             flex: 0 1 70%;
             padding-top: 20px;
             text-align: center;
+            line-height: normal;
+            text-indent: 5%;
+            word-spacing: 5px;
         }
         /* Regular menu */
         #navburger li {
@@ -611,6 +637,13 @@
             text-align: center;
             justify-content: center;
             color: #ffffff;
+            line-height: normal;
+            text-indent: 5%;
+            word-spacing: 5px;
+            font-family: 'Notable', sans-serif;
+            border-style: double;
+            border-color: #333333;
+            border-width: 1px;
         }
         .footer-container-item:nth-child(2) {
             order: 1;
@@ -618,6 +651,9 @@
             flex: 0 1 70%;
             padding-top: 20px;
             text-align: center;
+            line-height: normal;
+            text-indent: 5%;
+            word-spacing: 5px;
         }
         /* Regular menu */
         #navburger li {
@@ -815,6 +851,13 @@
             text-align: center;
             justify-content: center;
             z-index: 9999;
+            line-height: normal;
+            text-indent: 5%;
+            word-spacing: 5px;
+            font-family: 'Notable', sans-serif;
+            border-style: double;
+            border-color: #333333;
+            border-width: 1px;
         }
         .footer-container-item:nth-child(2) {
             order: 1;
@@ -822,6 +865,9 @@
             flex: 0 1 70%;
             padding-top: 20px;
             text-align: center;
+            line-height: normal;
+            text-indent: 5%;
+            word-spacing: 5px;
         }
         /*Ham menu*/
         /* Tickets table specifics */

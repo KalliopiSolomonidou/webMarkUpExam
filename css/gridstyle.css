@@ -12,19 +12,27 @@ body {
 
 h1 {
     font-size: 2rem;
+    letter-spacing: 3px;
 }
 
 h2 {
     font-size: 1.5rem;
+    letter-spacing: 2px;
 }
 
 h3 {
     font-size: 1.2rem;
+    letter-spacing: -1px;
 }
 
 h4 {
     font-size: 1rem;
     font-style: italic;
+    letter-spacing: -2px;
+}
+
+a:link {
+    color: blue;
 }
 
 
@@ -324,6 +332,13 @@ h4 {
         z-index: 9999;
         background-color: rgb(255, 170, 0, 0.5);
         color: #ffffff;
+        line-height: normal;
+        text-indent: 5%;
+        word-spacing: 5px;
+        font-family: 'Notable', sans-serif;
+        border-style: double;
+        border-color: #333333;
+        border-width: 1px;
     }
     .footer-container-item2 {
         grid-column-start: 1;
@@ -332,6 +347,9 @@ h4 {
         grid-row-end: 3;
         z-index: 1;
         background-color: #d6dce4;
+        line-height: normal;
+        text-indent: 5%;
+        word-spacing: 5px;
     }
     /* Regular menu */
     #navburger li {
@@ -530,7 +548,14 @@ h4 {
         background-color: rgb(255, 170, 0, 0.5);
         color: #ffffff;
         text-align: center;
-        padding-top: 25x;
+        padding-top: 25px;
+        line-height: normal;
+        text-indent: 5%;
+        word-spacing: 5px;
+        font-family: 'Notable', sans-serif;
+        border-style: double;
+        border-color: #333333;
+        border-width: 1px;
     }
     .footer-container-item2 {
         grid-column-start: 1;
@@ -540,6 +565,9 @@ h4 {
         z-index: 1;
         background-color: #d6dce4;
         text-align: center;
+        line-height: normal;
+        text-indent: 5%;
+        word-spacing: 5px;
     }
     /* Regular menu */
     #navburger li {
@@ -614,7 +642,7 @@ h4 {
         grid-column-start: 2;
         grid-column-end: 3;
         grid-row-start: 1;
-        grid-row-end: 3;
+        grid-row-end: 2;
         background: #4472c4;
         color: #ffffff;
         width: 40vw;
@@ -732,7 +760,14 @@ h4 {
         background-color: rgb(255, 170, 0, 0.5);
         color: #ffffff;
         text-align: center;
-        padding-top: 25x;
+        padding-top: 25px;
+        line-height: normal;
+        text-indent: 5%;
+        word-spacing: 5px;
+        font-family: 'Notable', sans-serif;
+        border-style: double;
+        border-color: #333333;
+        border-width: 1px;
     }
     .footer-container-item2 {
         grid-column-start: 1;
@@ -742,5 +777,8 @@ h4 {
         z-index: 1;
         background-color: #d6dce4;
         text-align: center;
+        line-height: normal;
+        text-indent: 5%;
+        word-spacing: 5px;
     }
 }
